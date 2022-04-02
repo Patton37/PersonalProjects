@@ -13,9 +13,9 @@ int color = 1;    //Code that corresponds to the color on the color wheel you ar
 
 void setup() {
   Serial.begin(115200);
-  pinMode(redPin, OUTPUT_PULLDOWN);
-  pinMode(bluePin, OUTPUT_PULLDOWN);
-  pinMode(greenPin, OUTPUT_PULLDDOWN);
+  pinMode(redPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
 
   pinMode(CLK,INPUT);
   pinMode(DAT,INPUT);
